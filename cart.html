@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="cart.css">
+</head>
+<body>
+	<header>
+		<nav>			
+			<div>
+				<img src="images/design-a-modern-bold-logo-for-bitebox-with-a-red-a__1_-removebg-preview.png" alt="BiteBox Logo" width="200">
+				<ul>
+					<li><a href="home.html"><i class="fa-solid fa-house"></i>Home</a></li>
+		            <li><a href="menu.html"><i class="fa-solid fa-bars"></i>Menu</a></li>
+		            <li><a href="bitedeals.html"><i class="fa-brands fa-ideal"></i>Bite Deals</a></li>
+		            <li><a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i>Cart</a></li>
+		            <li><a style="color: white; text-decoration: none;" href="login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>login</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<div class="cart">
+		<table border="1">
+			<tr>
+				<th>Item</th>
+				<th>Price</th>
+				<th>quantity</th>
+				<th>Total</th>
+				<th>Remove</th>
+			</tr>
+
+			<tr>
+				<td class="test">
+					<img src="images/Bacon-Jalapeno-Popper-Pizza-4-scaled.jpg" alt="" >
+					<div class="itemdiv" >
+						<h2>Jalepeno Pizza</h2>
+						<p>A cream cheese base replaces tomato sauce in this pizza topped with bacon and jalapeno peppers to bring poppers to pizza.</p>
+					</div>
+				</td>
+				<td>₹299</td>
+				<td>
+						<button class="quantity">+</button>
+						<span>2</span>
+						<button class="quantity">-</button>
+				</td>
+				<td>₹598</td>
+				<td><button class="remove">❌</button></td>
+			</tr>
+			<tr>
+				<td class="test">
+					<img src="images/Mexican-Fries-devils-burger.jpg" alt="">
+					<div class="itemdiv" >
+						<h2>Mexican Cheesy Fries</h2>
+						<p>A cream cheese base replaces tomato sauce in this pizza topped with bacon and jalapeno peppers to bring poppers to pizza.</p>
+					</div>
+				</td>
+				<td>₹465</td>
+				<td>
+						<button class="quantity">+</button>
+						<span>3</span>
+						<button class="quantity">-</button>
+				</td>
+				<td>₹1395</td>
+				<td><button class="remove">❌</button></td>
+			</tr>
+			<tr>
+				<td class="test">
+					<img src="images/Butter_Chicken_&_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg" alt="">
+					<div class="itemdiv" >
+						<h2>Premium Butter Chicken</h2>
+						<p>A cream cheese base replaces tomato sauce in this pizza topped with bacon and jalapeno peppers to bring poppers to pizza.</p>
+					</div>
+				</td>
+				<td>₹599</td>
+				<td>
+						<button class="quantity">+</button>
+						<span>1</span>
+						<button class="quantity">-</button>
+				</td>
+				<td>₹599</td>
+				<td><button class="remove">❌</button></td>
+			</tr>
+			
+
+			<tr class="grand-total">
+				<td colspan="3">Grand Total</td>
+				<td>₹2592</td>
+				<td><button>Proceed</button></td>
+			</tr>
+		</table>
+	</div>
+	<footer>
+		<h3><li>About us</li>
+		<li>Contact us</li>
+		<li>@copyright claimed</li></h3>
+	</footer>
+</body>
+</html>
