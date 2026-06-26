@@ -1,0 +1,82 @@
+img{
+			display: inline-block;
+            width: 60px;
+		}
+		nav{
+			background-color:black;
+			padding: 10px;
+		}
+        li :last-child{
+            background-color: red;
+            padding: 10px;
+            border-radius: 50px;
+        }
+		li{
+			display: inline;
+			margin: 10px;
+			float: right;
+            color: white;
+        }
+        li :hover{
+            background: darkred;
+        }
+		i{
+			color: white;
+
+		}
+		ul{
+			display: inline;
+			margin: 50px;
+			padding: 20px;
+			
+		}
+		h1{
+			display: inline;
+		}
+        .auth-container{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(5deg,darkred,orange);
+        }
+        .auth-box{
+            background: white;
+            padding: 40px;
+            border-radius:10px;
+            width: 320px;
+            text-align: center;
+            box-shadow: 0 8px 25px;
+        }
+        form{
+            width: 40%;
+            align-items: center;
+
+        }
+        label{
+            font-weight: bolder;
+            display: inline-block;
+            width: 150px;
+            margin: 10px;
+            margin-left: 57px;
+        }
+        input{
+            width: 250px;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid black;
+
+        }
+        button{
+            padding: 15px;
+            margin: 10px;
+            margin-left: 100px;
+            background: red;
+            font-weight: 400;
+            font-size: medium;
+            color: white;
+            justify-content: center;
+            border-radius: 30px;
+            border: 1px solid;
+        }
+		
