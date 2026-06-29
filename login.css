@@ -46,7 +46,11 @@ img{
             border-radius:10px;
             width: 320px;
             text-align: center;
-            box-shadow: 0 8px 25px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3)
+        }
+        .auth-box h2{
+            margin-bottom: 20px;
+            color: black;
         }
         form{
             width: 40%;
@@ -60,23 +64,36 @@ img{
             margin: 10px;
             margin-left: 57px;
         }
-        input{
-            width: 250px;
+        .auth-box input{
+            width: 100%;
             padding: 10px;
-            border-radius: 10px;
-            border: 1px solid black;
+            margin: 10px 0;
+            border-radius: 5pc;
+            border: 1px solid white;
 
         }
-        button{
+        .auth-box input:focus{
+            border-color: red;
+        }
+        .auth-box button{
+            width: 100%;
             padding: 15px;
-            margin: 10px;
-            margin-left: 100px;
             background: red;
-            font-weight: 400;
-            font-size: medium;
             color: white;
-            justify-content: center;
-            border-radius: 30px;
-            border: 1px solid;
+            border-radius: 5px;
+            margin-top: 10px;
+            border:none;
+            cursor: pointer;
+        }
+        .auth-box button:hover{
+            background-color: #cc0000;
+        }
+        .auth-box p{
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .auth-box a{
+            color: red;
+            text-decoration: none;
         }
 		
