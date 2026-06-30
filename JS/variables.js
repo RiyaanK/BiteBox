@@ -1,9 +1,14 @@
+
+
+
 console.log("Welcome");
 
-const id=123;
-console.log("id:",id);
- id =567;
-console.log("id:",id);
+let a=60;
+console.log("\nA: ",a);
+a%=5;
+console.log("\nA:",a);
+
+
 
 
 
@@ -14,7 +19,7 @@ console.log("id:",id);
 //  can be reassigned , but not declared
 
 // variables using const keyword
-// 
+// can not be reasigned and can
 
 
 
