@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="CSS/login.css">
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+</head>
+<body>
+	<header>
+		<nav>		
+			<div>
+				<img src="images/design-a-modern-bold-logo-for-bitebox-with-a-red-a__1_-removebg-preview.png" alt="BiteBox Logo" width="200">
+				<ul>
+					<li><a style="color: white; text-decoration: none;" href="home.html"><i class="fa-solid fa-house"></i>Home</a></li>
+		        	<li><a style="color: white; text-decoration: none;" href="menu.html"><i class="fa-solid fa-bars"></i>Menu</a></li>
+		        	<li><a style="color: white; text-decoration: none;" href="bitedeals.html"><i class="fa-brands fa-ideal"></i>BiteDeals</a></li>
+		       		<li><a style="color: white; text-decoration: none;" href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i>Cart</a></li>
+		        	<li><a style="color: white; text-decoration: none;" href="login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>login</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<section class="auth-container">
+		<div class="auth-box">
+			<h2>Login to Bite<span>Box</span></h2>
+			<form onsubmit="login(event)">
+				<label for="email">Email</label>
+				<input type="email" id="email" placeholder="Enter Email" required>
+				<label for="password">Password</label>
+				<input type="password" id="password" placeholder="Enter password" required>
+
+				<button  type="submit">Login</button>
+
+				<p id="error"></p>
+			</form>
+			<p><a href="signup.html">Forgot password</a></p>
+			<p style="font-style: italic;font: size 200px;font-family: bolder;">Don't have an account?<a href="signup.html">Signup</a></p>
+		</div>
+
+	</section>
+
+	<script src="JS/index.js"></script>
+	
+</body>
+</html>

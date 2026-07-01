@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading" onclick="colour()">Hello World</h1>
+
+    <button onclick="confirm('Do you know?')">Confirm</button>
+
+
+    <button onclick="alert('Hello')">Click Here</button>
+
+    <button onclick="testing()">Call function</button>
+    <button onclick="test()">Testing</button>
+
+    <script>
+        function test() {
+            var disability = prompt('do you have any disability?');
+            if(disability === 'no') {
+                alert(' eligible for driving');
+            } else{
+                alert('Not eligible for driving');
+            }
+
+        }
+        function colour() {
+            document.getElementById('heading').innerHTML = 'See You World';
+        }
+
+        const card1 = document.createElement("div");
+        card1.style.width = "300px";
+        card1.style.height = "300px";
+        card1.style.backgroundColor = "beige";
+
+        const img = document.createElement("img");
+        img.src = "images/bacon-jalapeno-popper-pizza.jpg";
+        img.style.width = "100%";
+        const heading = document.createElement("h2");
+        heading.innerHTML = "Bacon Jalapeno Popper Pizza";
+        const para = document.createElement("p");
+        para.innerHTML = "Delicious pizza with bacon and jalapenos!";
+        card1.appendChild(img);
+        card1.appendChild(heading);
+        card1.appendChild(para);
+        document.body.appendChild(card1);
+    </script>
+
+    
+</body>
+</html>
